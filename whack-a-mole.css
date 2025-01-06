@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background: url(Whack-A-Mole\ bg2.png);
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 3px solid;
+    border-radius: 25px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background: url(Whack-the-mole_hole-removebg-preview.png);
+    background-size: cover;
+}
+
+#board div img{
+    width: 180px;
+    height: 180px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+}
+
+#mode {
+    margin: 20px;
+}
+
+#mode button{
+    width: 134px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#mode button:hover{
+    background-color: #FEDA7A;
+    transition-duration: 500ms;
+}
+
+.slackey-regular {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dynapuff-title {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+  
+
+
